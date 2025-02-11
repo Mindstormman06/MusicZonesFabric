@@ -1,4 +1,4 @@
-package com.example;
+package com.mindstormman.musiczones;
 
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;

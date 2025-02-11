@@ -1,4 +1,4 @@
-package com.example;
+package com.mindstormman.musiczones;
 
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.sound.PositionedSoundInstance;

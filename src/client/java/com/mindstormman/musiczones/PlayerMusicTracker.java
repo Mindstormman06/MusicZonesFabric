@@ -1,4 +1,4 @@
-package com.example;
+package com.mindstormman.musiczones;
 
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.minecraft.server.MinecraftServer;
@@ -16,8 +16,7 @@ public class PlayerMusicTracker {
     public static void register() {
         ServerTickEvents.END_WORLD_TICK.register(server -> {
 
-            MinecraftServer minecraftServer = server.getServer()
-;
+            MinecraftServer minecraftServer = server.getServer();
             for (ServerPlayerEntity player : minecraftServer.getPlayerManager().getPlayerList()) {
                 BlockPos playerPos = player.getBlockPos();
                 UUID playerId = player.getUuid();

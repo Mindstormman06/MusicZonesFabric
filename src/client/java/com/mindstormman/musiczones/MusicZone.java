@@ -1,4 +1,4 @@
-package com.example;
+package com.mindstormman.musiczones;
 
 import net.minecraft.util.math.BlockPos;
 

@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "musiczones",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Music Zones",
+	"description": "Define areas to play music tracks in",
 	"authors": [
-		"Me!"
+		"Mindstormman"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/musiczones/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.mindstormman.musiczones.MusicZones"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.mindstormman.musiczones.MusicZonesClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"musiczones.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "musiczones.client.mixins.json",
 			"environment": "client"
 		}
 	],
